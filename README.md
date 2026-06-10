@@ -14,12 +14,9 @@
 
 ## 🛠️ المتطلبات الأساسية (Dependencies)
 لكي يعمل السكريبت بنجاح، يجب إنشاء مجلد باسم `bin` في نفس مسار السكريبت، ووضع الملفات التالية بداخله:
-Downloader Core تحميل ملف [yt-dlp.exe](https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe) وتسميته بهذا الاسم.
-
-Video Processing Tools تحميل حزمة [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-n8.1-latest-win64-gpl-8.1.zip)، ثم فك الضغط ونقل ملفي `ffmpeg.exe` و `ffprobe.exe` إلى مجلد `bin`.
-
-JavaScript Runtime Core تحميل حزمة [QuickJS](https://bellard.org/quickjs/binary_releases/quickjs-win-x86_64-2026-06-04.zip)، ثم فك الضغط ونقل ملفي `qjs.exe` و `libwinpthread-1.dll` إلى مجلد `bin`.
-
+##  تحميل ملف [yt-dlp.exe] ثم نقله إلى مجلد `bin`.
+##  تحميل حزمة [FFmpeg]، ثم فك الضغط ونقل ملفي `ffmpeg.exe` و `ffprobe.exe` إلى مجلد `bin`.
+##  تحميل حزمة [QuickJS]، ثم فك الضغط ونقل ملفي `qjs.exe` و `libwinpthread-1.dll` إلى مجلد `bin`.
 > 💡 **ملاحظة:** في حال عدم توفر هذه الملفات، سيقوم السكريبت بإظهار رسالة خطأ تحتوي على روابط التحميل المباشرة لمساعدتك.
 
 ## 🚀 كيفية الاستخدام (How to Use)
@@ -28,5 +25,4 @@ JavaScript Runtime Core تحميل حزمة [QuickJS](https://bellard.org/quickj
 3. انسخ رابط الفيديو الذي تريد تحميله، ثم قم بلصقه داخل نافذة السكريبت (أو اسحب الرابط وأفلته داخلها) واضغط **Enter**.
 4. اختر الجودة المطلوبة عبر كتابة الرقم المناسب لها (من 1 إلى 5) واضغط **Enter**.
 5. انتظر حتى ينتهي التحميل، وستجد الملف جاهزاً داخل مجلد تلقائي باسم **Downloads**.
-
 > 👨‍💻 **تطوير:** تم برمجة وتخصيص هذه النسخة الخفيفة بواسطة **Dr Software**. إذا واجهت أي مشكلة أو كان لديك اقتراح لتطوير السكريبت، لا تتردد في فتح Issue!
